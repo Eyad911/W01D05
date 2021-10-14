@@ -17,8 +17,8 @@ let rem_area = length * width;
 console.log(`The area of the rectangle is ${rem_area}`);
 
 let Div = Math.trunc(num1/num2);
-
-console.log(`${num1} + ${num2}= ${Div}  remainder ${num1%num2}`);
+let mod = num1%num2;
+console.log(`${num1} + ${num2}= ${Div}  remainder ${mod}`);
 
 
 

@@ -43,17 +43,36 @@ for (let y = 1; y < 21; y++)
     console.log(y);
   }
 
-  for (let z = 1; z < 6; z++) {
-    if(z==1){
-        console.log("*");
-    }else if(z==2){
-        console.log("**");
-    }else if(z==3){
-        console.log("***");
-    }else if(z==4){
-        console.log("****");
-    }else if(z==5){
-        console.log("*****");
-    }
+for (let z = 1; z < 6; z++) {
+  if (z == 1) {
+    console.log("*");
+  } else if (z == 2) {
+    console.log("**");
+  } else if (z == 3) {
+    console.log("***");
+  } else if (z == 4) {
+    console.log("****");
+  } else if (z == 5) {
+    console.log("*****");
   }
+}
 
+let User_N = "eyad";
+let Pass = "123123";
+
+if (User_N.length > 6 && Pass.length >= 8) {
+  console.log(`login successful`);
+} else console.log(`login failed.`);
+
+for (let i = 20; i > -1; i--) {
+  console.log(i);
+}
+
+let startRange = 6;
+let endRange = 18;
+let contener = "";
+for (let i = startRange; i <= endRange; i++) {
+  contener += i + `,`;
+}
+
+console.log(contener);
